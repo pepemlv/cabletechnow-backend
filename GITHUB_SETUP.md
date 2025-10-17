@@ -32,8 +32,8 @@ After creating the repository, GitHub will show you commands. Use these:
 # Navigate to your backend directory
 cd "e:\APPLICCATIONS IMPORTANTES\ASSISTMETECH\7\project\backend"
 
-# Add GitHub as remote origin (replace USERNAME with your GitHub username)
-git remote add origin https://github.com/USERNAME/cabletechnow-backend.git
+# Add GitHub as remote origin
+git remote add origin https://github.com/pepemlv/cabletechnow-backend.git
 
 # Rename main branch to 'main' (if needed)
 git branch -M main
@@ -44,7 +44,7 @@ git push -u origin main
 
 ## Step 3: Verify Repository Setup
 
-1. **Visit your repository** at: `https://github.com/USERNAME/cabletechnow-backend`
+1. **Visit your repository** at: `https://github.com/pepemlv/cabletechnow-backend`
 2. **Check that all files are there**:
    - ✅ README.md
    - ✅ package.json
@@ -176,7 +176,7 @@ Brief description of changes
 
 ## 🎉 Your Repository is Ready!
 
-**Repository URL**: `https://github.com/USERNAME/cabletechnow-backend`
+**Repository URL**: `https://github.com/pepemlv/cabletechnow-backend`
 
 ### Next Steps:
 1. **Deploy to production** using guides in `DEPLOYMENT.md`
@@ -188,7 +188,7 @@ Brief description of changes
 ### Useful Commands:
 ```bash
 # Clone repository (for new environments)
-git clone https://github.com/USERNAME/cabletechnow-backend.git
+git clone https://github.com/pepemlv/cabletechnow-backend.git
 
 # Pull latest changes
 git pull origin main
