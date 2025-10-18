@@ -13,10 +13,9 @@ const PORT = process.env.PORT || 4000;
 // Middleware
 app.use(cors({
   origin: [
-    'https://testpms.com',
-    'https://testpms.com/', 
-    'http://localhost:5174', 
-    'http://localhost:5173', 
+    'https://cabletechnow.com',
+    'https://www.cabletechnow.com',
+    'http://localhost:5173',
     'http://localhost:3000'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -80,7 +79,7 @@ app.post('/api/payment', async (req, res) => {
       description: description || 'Service payment via CableTechNow',
       payment_method: paymentMethodId,
       confirm: true,
-      return_url: 'http://localhost:5177/payment-success',
+      return_url: 'https://cabletechnow.com/payment-success',
     });
 
     res.status(200).json({ 
